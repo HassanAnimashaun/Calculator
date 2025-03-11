@@ -1,29 +1,79 @@
-# calculator
+Vue Calculator App
 
-This template should help get you started developing with Vue 3 in Vite.
+Overview
 
-## Recommended IDE Setup
+This is a simple yet functional calculator built using Vue 3 as a Single File Component (SFC) project. The calculator allows users to perform basic arithmetic operations and handle floating-point calculations. The results of performed operations are displayed for clarity.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Features
 
-## Customize configuration
+✅ Functional arithmetic operations:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Addition (+)
 
-## Project Setup
+Subtraction (-)
 
-```sh
+Multiplication (*)
+
+Division (/)
+
+Percentage (%)
+
+✅ Floating-point operations are supported.
+
+✅ Displays calculations (e.g., 5 + 5 = 10).
+
+✅ Handles invalid inputs and prevents multiple consecutive operators.
+
+✅ Clear (C) button to reset input.
+
+✅ Toggle sign functionality (±) to switch between positive and negative numbers.
+
+Installation & Setup
+
+Clone this repository:
+
+git clone <repository_url>
+cd vue-calculator
+
+Install dependencies:
+
 npm install
-```
 
-### Compile and Hot-Reload for Development
+Run the development server:
 
-```sh
 npm run dev
-```
 
-### Compile and Minify for Production
+Open your browser and navigate to http://localhost:5173/ (or the port assigned by Vite).
 
-```sh
-npm run build
-```
+Usage
+
+Click the number and operator buttons to input calculations.
+
+Press = to evaluate the expression.
+
+Use C to clear the input field.
+
+Use ± to toggle positive/negative values.
+
+Percentage (%) will convert the number into a percentage value.
+
+Future Enhancements
+
+🔹 Saving Display History: Users will be able to save and review previous calculations.
+
+🔹 Keyboard Support: Allowing users to input numbers and operations via keyboard shortcuts instead of clicking buttons.
+
+🔹 Advanced Functions: Adding functionalities such as square roots, exponentiation, and memory storage.
+
+🔹 Theming Options: Customizable light and dark mode for user preference.
+
+Contributing
+
+Contributions are welcome! Feel free to fork the repository and submit pull requests for improvements or new features.
+
+License
+
+This project is licensed under the MIT License.
+
+Let me know if you'd like any modifications or additions! 🚀
+
