@@ -1,22 +1,22 @@
-Vue Calculator App
+# Vue Calculator App
 
-Overview
+## Overview
 
 This is a simple yet functional calculator built using Vue 3 as a Single File Component (SFC) project. The calculator allows users to perform basic arithmetic operations and handle floating-point calculations. The results of performed operations are displayed for clarity.
 
-Features
+## Features
 
 ✅ Functional arithmetic operations:
 
-Addition (+)
+- Addition (+)
 
-Subtraction (-)
+- Subtraction (-)
 
-Multiplication (*)
+- Multiplication (*)
 
-Division (/)
+- Division (/)
 
-Percentage (%)
+- Percentage (%)
 
 ✅ Floating-point operations are supported.
 
@@ -28,50 +28,51 @@ Percentage (%)
 
 ✅ Toggle sign functionality (±) to switch between positive and negative numbers.
 
-Installation & Setup
+## Installation & Setup
 
 Clone this repository:
-
+```
 git clone <repository_url>
 cd vue-calculator
-
+```
 Install dependencies:
-
+```
 npm install
-
+```
 Run the development server:
-
+```
 npm run dev
+```
 
-Open your browser and navigate to http://localhost:5173/ (or the port assigned by Vite).
+Open your browser and navigate to ```http://localhost:5173/``` (or the port assigned by Vite).
 
-Usage
+## Usage
 
-Click the number and operator buttons to input calculations.
+- Click the number and operator buttons to input calculations.
 
-Press = to evaluate the expression.
+- Press = to evaluate the expression.
 
-Use C to clear the input field.
+- Use C to clear the input field.
 
-Use ± to toggle positive/negative values.
+- Use ± to toggle positive/negative values.
 
-Percentage (%) will convert the number into a percentage value.
+- Percentage (%) will convert the number into a percentage value.
 
-Future Enhancements
+## Future Enhancements
 
-🔹 Saving Display History: Users will be able to save and review previous calculations.
+🔹 **Saving Display History:** Users will be able to save and review previous calculations.
 
-🔹 Keyboard Support: Allowing users to input numbers and operations via keyboard shortcuts instead of clicking buttons.
+🔹 **Keyboard Support:** Allowing users to input numbers and operations via keyboard shortcuts instead of clicking buttons.
 
-🔹 Advanced Functions: Adding functionalities such as square roots, exponentiation, and memory storage.
+🔹 **Advanced Functions:** Adding functionalities such as square roots, exponentiation, and memory storage.
 
-🔹 Theming Options: Customizable light and dark mode for user preference.
+🔹 **Theming Options:** Customizable light and dark mode for user preference.
 
-Contributing
+## Contributing
 
 Contributions are welcome! Feel free to fork the repository and submit pull requests for improvements or new features.
 
-License
+## License
 
 This project is licensed under the MIT License.
 
